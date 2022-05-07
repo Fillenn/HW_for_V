@@ -1,0 +1,21 @@
+Утро не бывает добрым, если в нем нет толковой задачи! Потому предлагаю вам новую  #задачаДня
+
+Ваша задача написать функцию domain_name, которая принимает строку url, извлекает из нее доменное имя и возвращает его в качестве строки
+
+Примеры:
+
+domain_name("http://google.com") # возвращает "google"
+domain_name("http://google.co.jp") # возвращает  "google"
+domain_name("www.xakep.ru") # возвращает "xakep"
+domain_name("https://youtube.com") # возвращает "youtube"
+domain_name("https://www.asos.com") # возвращает "asos"
+domain_name("http://www.lenovo.com") # возвращает "lenovo"
+domain_Name("http://github.com/carbonfive/raygun") # возвращает  "github" 
+domain_Name("http://www.zombie-bites.com") # возвращает  "zombie-bites"
+domain_Name("https://www.cnet.com") # возвращает  "cnet"
+
+URL может начинаться с протоколов http://  https:// или с www. URL, начинающиеся с протоколов http://  https://, могут также содержать www.
+
+Решаем без сторонних библиотек на любом языке, который Вам больше нравится:) 
+
+Ваши решения ждем как всегда в чате с хештегом решениеДня либо ссылочкой на гитхаб! Удачи:)
